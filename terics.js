@@ -239,7 +239,7 @@ Box.prototype = {
 				//第i行能够消去
 			   this.lines++;
 			   var score = document.getElementsByClassName('score')[0];
-			   score.innerText = this.line*100;
+			   score.innerText = this.lines*100;
 			   this.updateLines(i);
 			   i--;
 			}
