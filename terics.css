@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	
+	font-family:"Times New Roman", Times, serif;
+	font-size:16px;
+	background:#F2F1EF;
+}
+.area{
+	    width:50%;
+		height:450px;
+		margin: 0 auto;
+		
+}
+.head{
+		height:100px;
+		text-align:center;
+		margin-bottom: 10px;
+}
+.head p{
+	font-size:20px;
+	height:25px;
+	margin:0px;
+}
+.content{
+		height:350px;
+}
+table{
+	 width:100%;
+	 height:100%;
+	 border-width:1px 0px 0px 1px;
+	 border-spacing:1px;
+	 border-color:#ccc;
+}
+.content table{
+	 border-collapse:collapse;
+	 border:none;
+}
+.content table td{
+	/*border-width:0xp 1px 1px 0px;*/
+	border:1px solid #EBEBEB;
+ }
+.info{
+	height:50px;
+	background-color:#F5F4F2;
+	border:1px solid #EAEAEA;
+}
+.wall{
+	background-color:#666;
+}
+.ground{
+	background-color: #ccc;
+}
+.score,.hint{
+	color:#F00;
+	
+}
+.info +p{
+	color:#F00;
+	font-size:10px;
+	height:30px;
+}
+input[type='button']{
+	width:55px;
+	height:30px;
+	border-color: #b92c28;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);
+	background-image: linear-gradient(to bottom,#d9534f 0,#c12e2a 100%);
+	color: #fff;
+    background-color: #d9534f;
+	text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+	cursor: pointer;
+	border-radius:5px;
+}
+
+
